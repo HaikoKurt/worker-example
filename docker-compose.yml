@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  messenger:
+    build: .
+    ports:
+      - "10000:10000"
+    volumes:
+      - /Users/haiko/Documents/Temp/Docker/quart:/data
